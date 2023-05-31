@@ -278,6 +278,7 @@
 .skill_container .alt {
 	font-size: 14px;
 	padding-right: 25px;
+	display:flex;
 }
 
 

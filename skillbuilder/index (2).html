@@ -25,7 +25,7 @@
 	<link href="assets/css/customarchlord.css" rel="stylesheet">
 	<!--<link rel="icon" type="image/png" href="assets/images/favicon.png">-->
 	<link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
-	<!--<script defer="" src="assets/vendor/fontawesome-free/js/all.js"></script>
+	<script defer="" src="assets/vendor/fontawesome-free/js/all.js"></script>
 	<script defer="" src="assets/vendor/fontawesome-free/js/v4-shims.js"></script>
 	<link rel="stylesheet" href="assets/vendor/ionicons/css/ionicons.min.css">
 	<link rel="stylesheet" href="assets/vendor/revolution/css/settings.css">
@@ -35,181 +35,178 @@
 	<link rel="stylesheet" href="assets/vendor/photoswipe/dist/photoswipe.css">
 	<link rel="stylesheet" href="assets/vendor/photoswipe/dist/default-skin/default-skin.css">
 	<link rel="stylesheet" href="assets/vendor/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
-	<link rel="stylesheet" href="assets/vendor/summernote/dist/summernote-bs4.css">-->
+	<link rel="stylesheet" href="assets/vendor/summernote/dist/summernote-bs4.css">
 	<!--<link rel="stylesheet" href="assets/css/godlike.css">-->
 	<link rel="stylesheet" href="assets/css/custom.css">
-	<!--<link rel="stylesheet" href="assets/css/leaflet.css">-->
+	<link rel="stylesheet" href="assets/css/leaflet.css">
 	<script src="assets/vendor/leaflet/leaflet.js"></script>
 	<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
 	<link rel="icon" type="image/png" href="../images/Archlord.ico">
-	
-	<style>
-		.header-bottom.active {
-			top: -150px;
-		}
-	</style>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
 </head>
-<body style="background-color: var(--raisin-black-2);">
-	<!--<div class="bg-main fade-in"></div>
-	<div class="bg-overlay"></div>-->
+<body>
+	<div class="bg-main fade-in"></div>
+	<div class="bg-overlay"></div>
 	<!--#region CUSTOM-ARCHLORD-NAVBAR  -->
-
-	<header class="header">
-		<div class="header-bottom skewBg" data-header style="">
-			<div class="container">
-				<a href=".." class="logo">Custom-Archlord</a>
-				<nav class="navbar" data-navbar>
-					<ul class="navbar-list">
-
-						<li>
-							<div class="skillbuilder_dropdown">
-								<select id="skillbuilder_selectlist" class="cursor_hand">
-									<option class="cursor_hand" selected="" value="Compatible_Class_Knight">Knight</option>
-									<option value="Compatible_Class_Archer">Archer</option>
-									<option value="Compatible_Class_Mage">Mage</option>
-									<option value="Compatible_Class_Berserker">Berserker</option>
-									<option value="Compatible_Class_Hunter">Hunter</option>
-									<option value="Compatible_Class_Sorcerer">Sorcerer</option>
-									<option value="Compatible_Class_Swashbuckler">Swashbuckler</option>
-									<option value="Compatible_Class_Ranger">Ranger</option>
-									<option value="Compatible_Class_Elementalist">Elementalist</option>
-								</select>
-							</div>
-						</li>
-
-						<li>
-							<div class="skillbuilder_dropdown">
-								<select id="level_select" class="cursor_hand">
-									<option value="" disabled="" selected="">Level limit</option>
-									<option value="4" data-level="5">4</option>
-									<option value="5" data-level="6">5</option>
-									<option value="6" data-level="7">6</option>
-									<option value="7" data-level="8">7</option>
-									<option value="8" data-level="9">8</option>
-									<option value="9" data-level="10">9</option>
-									<option value="10" data-level="11">10</option>
-									<option value="11" data-level="12">11</option>
-									<option value="12" data-level="13">12</option>
-									<option value="13" data-level="14">13</option>
-									<option value="14" data-level="15">14</option>
-									<option value="15" data-level="16">15</option>
-									<option value="16" data-level="17">16</option>
-									<option value="17" data-level="18">17</option>
-									<option value="18" data-level="19">18</option>
-									<option value="19" data-level="20">19</option>
-									<option value="20" data-level="21">20</option>
-									<option value="21" data-level="22">21</option>
-									<option value="22" data-level="23">22</option>
-									<option value="23" data-level="24">23</option>
-									<option value="24" data-level="25">24</option>
-									<option value="25" data-level="26">25</option>
-									<option value="26" data-level="27">26</option>
-									<option value="27" data-level="28">27</option>
-									<option value="28" data-level="29">28</option>
-									<option value="29" data-level="30">29</option>
-									<option value="30" data-level="31">30</option>
-									<option value="31" data-level="32">31</option>
-									<option value="32" data-level="33">32</option>
-									<option value="33" data-level="34">33</option>
-									<option value="34" data-level="35">34</option>
-									<option value="35" data-level="36">35</option>
-									<option value="36" data-level="37">36</option>
-									<option value="37" data-level="38">37</option>
-									<option value="38" data-level="39">38</option>
-									<option value="39" data-level="40">39</option>
-									<option value="40" data-level="41">40</option>
-									<option value="41" data-level="42">41</option>
-									<option value="42" data-level="43">42</option>
-									<option value="43" data-level="44">43</option>
-									<option value="44" data-level="45">44</option>
-									<option value="45" data-level="46">45</option>
-									<option value="46" data-level="47">46</option>
-									<option value="47" data-level="48">47</option>
-									<option value="48" data-level="49">48</option>
-									<option value="49" data-level="50">49</option>
-									<option value="50" data-level="52">50</option>
-									<option value="51" data-level="54">51</option>
-									<option value="52" data-level="56">52</option>
-									<option value="53" data-level="58">53</option>
-									<option value="54" data-level="60">54</option>
-									<option value="55" data-level="62">55</option>
-									<option value="56" data-level="64">56</option>
-									<option value="57" data-level="66">57</option>
-									<option value="58" data-level="68">58</option>
-									<option value="59" data-level="70">59</option>
-									<option value="60" data-level="72">60</option>
-									<option value="61" data-level="74">61</option>
-									<option value="62" data-level="76">62</option>
-									<option value="63" data-level="78">63</option>
-									<option value="64" data-level="80">64</option>
-									<option value="65" data-level="82">65</option>
-									<option value="66" data-level="84">66</option>
-									<option value="67" data-level="86">67</option>
-									<option value="68" data-level="88">68</option>
-									<option value="69" data-level="90">69</option>
-									<option value="70" data-level="91">70</option>
-									<option value="71" data-level="92">71</option>
-									<option value="72" data-level="93">72</option>
-									<option value="73" data-level="94">73</option>
-									<option value="74" data-level="95">74</option>
-									<option value="75" data-level="96">75</option>
-									<option value="76" data-level="97">76</option>
-									<option value="77" data-level="98">77</option>
-									<option value="78" data-level="99">78</option>
-									<option value="79" data-level="100">79</option>
-									<option value="80" data-level="101">80</option>
-									<option value="81" data-level="102">81</option>
-									<option value="82" data-level="103">82</option>
-									<option value="83" data-level="104">83</option>
-									<option value="84" data-level="105">84</option>
-									<option value="85" data-level="106">85</option>
-									<option value="86" data-level="107">86</option>
-									<option value="87" data-level="108">87</option>
-									<option value="88" data-level="109">88</option>
-									<option value="89" data-level="110">89</option>
-									<option value="90" data-level="111">90</option>
-									<option value="91" data-level="112">91</option>
-									<option value="92" data-level="113">92</option>
-									<option value="93" data-level="114">93</option>
-									<option value="94" data-level="115">94</option>
-									<option value="95" data-level="116">95</option>
-									<option value="96" data-level="117">96</option>
-									<option value="97" data-level="118">97</option>
-									<option value="98" data-level="119">98</option>
-									<option value="99" data-level="120">99</option>
-								</select>
-							</div>
-						</li>
-						<!--<li class="skillbuilder_pointsneeded">
-							<div>Skill points needed <br><span id="skill_points">0</span> of  <span id="skill_points_total">120</span></div>
-
-						</li>-->
-
-
-					</ul>
-				</nav>
-				<div class="header-actions">
-					<button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-						<ion-icon name="menu-outline" class="menu"></ion-icon>
-						<ion-icon name="close-outline" class="close"></ion-icon>
-					</button>
+	<div class="navbar navbar-fixed-top navbar-expand-lg top-nav navbar-inverse navbar-dark sticky-top" style="">
+		<div class="container">
+			<div class="navbar-header row">
+				<div class="navbar-box">
+					<a class="navbar-brand" href=".." style="padding-left: 15px;"><img src="../assets/images/C1_12.png" height="56" /></a>
 				</div>
 			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavTop" aria-controls="navbarNavTop" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavTop">
+
+				<ul class="nav navbar-nav m-auto">
+					<!--style="display:none"-->
+					<li>
+						<div class="skillbuilder_dropdown">
+							<select id="skillbuilder_selectlist" class="cursor_hand">
+								<option class="cursor_hand" selected="" value="Compatible_Class_Knight">Knight</option>
+								<option value="Compatible_Class_Archer">Archer</option>
+								<option value="Compatible_Class_Mage">Mage</option>
+								<option value="Compatible_Class_Berserker">Berserker</option>
+								<option value="Compatible_Class_Hunter">Hunter</option>
+								<option value="Compatible_Class_Sorcerer">Sorcerer</option>
+								<option value="Compatible_Class_Swashbuckler">Swashbuckler</option>
+								<option value="Compatible_Class_Ranger">Ranger</option>
+								<option value="Compatible_Class_Elementalist">Elementalist</option>
+							</select>
+						</div>
+					</li>
+
+					<li>
+						<div class="skillbuilder_dropdown">
+							<select id="level_select" class="cursor_hand">
+								<option value="" disabled="" selected="">Level limit</option>
+								<option value="4" data-level="5">4</option>
+								<option value="5" data-level="6">5</option>
+								<option value="6" data-level="7">6</option>
+								<option value="7" data-level="8">7</option>
+								<option value="8" data-level="9">8</option>
+								<option value="9" data-level="10">9</option>
+								<option value="10" data-level="11">10</option>
+								<option value="11" data-level="12">11</option>
+								<option value="12" data-level="13">12</option>
+								<option value="13" data-level="14">13</option>
+								<option value="14" data-level="15">14</option>
+								<option value="15" data-level="16">15</option>
+								<option value="16" data-level="17">16</option>
+								<option value="17" data-level="18">17</option>
+								<option value="18" data-level="19">18</option>
+								<option value="19" data-level="20">19</option>
+								<option value="20" data-level="21">20</option>
+								<option value="21" data-level="22">21</option>
+								<option value="22" data-level="23">22</option>
+								<option value="23" data-level="24">23</option>
+								<option value="24" data-level="25">24</option>
+								<option value="25" data-level="26">25</option>
+								<option value="26" data-level="27">26</option>
+								<option value="27" data-level="28">27</option>
+								<option value="28" data-level="29">28</option>
+								<option value="29" data-level="30">29</option>
+								<option value="30" data-level="31">30</option>
+								<option value="31" data-level="32">31</option>
+								<option value="32" data-level="33">32</option>
+								<option value="33" data-level="34">33</option>
+								<option value="34" data-level="35">34</option>
+								<option value="35" data-level="36">35</option>
+								<option value="36" data-level="37">36</option>
+								<option value="37" data-level="38">37</option>
+								<option value="38" data-level="39">38</option>
+								<option value="39" data-level="40">39</option>
+								<option value="40" data-level="41">40</option>
+								<option value="41" data-level="42">41</option>
+								<option value="42" data-level="43">42</option>
+								<option value="43" data-level="44">43</option>
+								<option value="44" data-level="45">44</option>
+								<option value="45" data-level="46">45</option>
+								<option value="46" data-level="47">46</option>
+								<option value="47" data-level="48">47</option>
+								<option value="48" data-level="49">48</option>
+								<option value="49" data-level="50">49</option>
+								<option value="50" data-level="52">50</option>
+								<option value="51" data-level="54">51</option>
+								<option value="52" data-level="56">52</option>
+								<option value="53" data-level="58">53</option>
+								<option value="54" data-level="60">54</option>
+								<option value="55" data-level="62">55</option>
+								<option value="56" data-level="64">56</option>
+								<option value="57" data-level="66">57</option>
+								<option value="58" data-level="68">58</option>
+								<option value="59" data-level="70">59</option>
+								<option value="60" data-level="72">60</option>
+								<option value="61" data-level="74">61</option>
+								<option value="62" data-level="76">62</option>
+								<option value="63" data-level="78">63</option>
+								<option value="64" data-level="80">64</option>
+								<option value="65" data-level="82">65</option>
+								<option value="66" data-level="84">66</option>
+								<option value="67" data-level="86">67</option>
+								<option value="68" data-level="88">68</option>
+								<option value="69" data-level="90">69</option>
+								<option value="70" data-level="91">70</option>
+								<option value="71" data-level="92">71</option>
+								<option value="72" data-level="93">72</option>
+								<option value="73" data-level="94">73</option>
+								<option value="74" data-level="95">74</option>
+								<option value="75" data-level="96">75</option>
+								<option value="76" data-level="97">76</option>
+								<option value="77" data-level="98">77</option>
+								<option value="78" data-level="99">78</option>
+								<option value="79" data-level="100">79</option>
+								<option value="80" data-level="101">80</option>
+								<option value="81" data-level="102">81</option>
+								<option value="82" data-level="103">82</option>
+								<option value="83" data-level="104">83</option>
+								<option value="84" data-level="105">84</option>
+								<option value="85" data-level="106">85</option>
+								<option value="86" data-level="107">86</option>
+								<option value="87" data-level="108">87</option>
+								<option value="88" data-level="109">88</option>
+								<option value="89" data-level="110">89</option>
+								<option value="90" data-level="111">90</option>
+								<option value="91" data-level="112">91</option>
+								<option value="92" data-level="113">92</option>
+								<option value="93" data-level="114">93</option>
+								<option value="94" data-level="115">94</option>
+								<option value="95" data-level="116">95</option>
+								<option value="96" data-level="117">96</option>
+								<option value="97" data-level="118">97</option>
+								<option value="98" data-level="119">98</option>
+								<option value="99" data-level="120">99</option>
+							</select>
+						</div>
+					</li>
+					<li class="skillbuilder_pointsneeded">
+						<div>Skill points needed <br><span id="skill_points">0</span> of  <span id="skill_points_total">120</span></div>
+
+					</li>
+
+					<li style="margin-left:20px; color:red">
+						<div>Patch 13.1</div>
+						<div style="color:white">(CTRL + F5 to refresh)</div>
+					</li>
+
+				</ul>
+
+			</div>
 		</div>
-
-	</header>
-
+	</div>
 
 
 
 
-
-
-	<div class="nk-main" style="margin-top:100px;">
+	<div class="nk-main">
 
 
 
-		<div class="yeni-slider slider">
+		<div class="yeni-slider slider" style="background-image: url(../assets/images/slide2a.png);">
 			<div class="container-yeni">
 				<div class="menu_container">
 
@@ -1099,32 +1096,23 @@
 
 
 
+		<div class="nk-gap-4"></div><div class="nk-gap-4"></div>
+		<script src="assets/skill_builder/Skill_JSON.js"></script>
+		<script src="assets/skill_builder/skill_const1.js"></script>
+		<script src="assets/skill_builder/skill_const2.js"></script>
+		<script src="assets/skill_builder/mapping.js"></script>
 
-
+		<script src="assets/skill_builder/Skill_Plus_JSON.js"></script>
+		<script src="assets/skill_builder/app.js"></script>
+		<script>
+			$(".modal_close").click(function () {
+				$("#infoModal").fadeOut();
+				$("#errorInfo").fadeOut();
+			});
+		</script>
 
 	</div>
 
-	<div class="nk-gap-4"></div><div class="nk-gap-4"></div>
-
-	<script>
-		$(".modal_close").click(function () {
-			$("#infoModal").fadeOut();
-			$("#errorInfo").fadeOut();
-		});
-	</script>
-	<script src="assets/skill_builder/Skill_JSON.js"></script>
-	<script src="assets/skill_builder/skill_const1.js"></script>
-	<script src="assets/skill_builder/skill_const2.js"></script>
-	<script src="assets/skill_builder/mapping.js"></script>
-
-	<script src="assets/skill_builder/Skill_Plus_JSON.js"></script>
-	<script src="assets/skill_builder/app.js"></script>
-	<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-		<ion-icon name="caret-up"></ion-icon>
-	</a>
-	<script src="../assets/js/script.js" defer></script>
-	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
 	<script src="assets/vendor/gsap/dist/gsap.min.js"></script>
