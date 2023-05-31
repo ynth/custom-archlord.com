@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Custom-Archlord is an European private server of Archlord!</title>
+	<title>Custom-Archlord</title>
 	<meta name="description" content="✔Archlord private server dedicated to provide you a classic Archlord feeling inspired by Episode 3.">
 	<meta property="og:title" content="Custom-Archlord is an European private server of Archlord!">
 	<meta property="og:description" content="✔Archlord private server dedicated to provide you a classic Archlord feeling inspired by Episode 3.">
@@ -16,9 +15,7 @@
 	<meta http-equiv="Expires" content="0" />
 	<link rel="shortcut icon" href="./Archlord.ico" type="image/svg+xml">
 	<link rel="stylesheet" href="./assets/css/style.css">
-
 	<link rel="stylesheet" href="./assets/css/modal.css">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -26,187 +23,72 @@
 
 <body id="top">
 
-	<!--
-	  - #HEADER
-	-->
-
+	<!--#region header  -->
 	<header class="header">
-
-
-
 		<div class="header-bottom skewBg" data-header>
 			<div class="container">
 				<a href="#" class="logo">Custom-Archlord</a>
-				<!--<a href="#" class="logoo"><img src="./assets/images/C1_12.png" height="42" /></a>-->
-				<!--<a href="#" class="logo" style="height:50px"><img src="./assets/images/C1_12.png" height="30" /></a>-->
-
 				<nav class="navbar" data-navbar>
 					<ul class="navbar-list">
-
 						<li class="navbar-item">
 							<a href="#latestnews" class="navbar-link skewBg" data-nav-link>News</a>
 						</li>
-
 						<li class="navbar-item">
-
-
-							<a href="https://drive.google.com/file/d/1JTQEX7ljlWCixCCGybNtNGapdrm5mXVl/view" target="_blank" class="navbar-link skewBg" data-nav-link>Download</a>
+							<a href="./download" class="navbar-link skewBg" data-nav-link>Download</a>
 						</li>
-
-
 						<li class="navbar-item">
 							<a href="#blog" class="navbar-link skewBg" data-nav-link>Features</a>
 						</li>
-
 						<li class="navbar-item">
 							<a href="https://discord.gg/DdgjnESxHn" target="_blank" class="navbar-link skewBg" data-nav-link>Community</a>
 						</li>
-
-
-
 						<li class="navbar-item">
 							<a href="./skillbuilder" class="navbar-link skewBg" data-nav-link>SkillBuilder</a>
 						</li>
-
 					</ul>
 				</nav>
 
 				<div class="header-actions">
-
-					<button class="cart-btn" aria-label="cart" style="visibility:hidden">
-						<ion-icon name="cart"></ion-icon>
-
-						<span class="cart-badge">0</span>
-					</button>
-
-					<button class="search-btn" aria-label="open search" data-search-toggler style="visibility:hidden">
-						<ion-icon name="search-outline"></ion-icon>
-					</button>
-
 					<button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
 						<ion-icon name="menu-outline" class="menu"></ion-icon>
 						<ion-icon name="close-outline" class="close"></ion-icon>
 					</button>
-
 				</div>
-
 			</div>
 		</div>
 
 	</header>
-
-
-
-
-
-	<!--
-	  - #SEARCH BOX
-	-->
-
-	<div class="search-container" data-search-box>
-
-		<div class="input-wrapper">
-			<input type="search" name="search" aria-label="search" placeholder="Search here..." class="search-field">
-
-			<button class="search-submit" aria-label="submit search" data-search-toggler>
-				<ion-icon name="search-outline"></ion-icon>
-			</button>
-
-			<button class="search-close" aria-label="close search" data-search-toggler></button>
-		</div>
-
-	</div>
-
-
-
-
+	<!--#endregion header  -->
 
 	<main>
+
 		<article>
 
-			<!--
-			  - #HERO
-			-->
-
+			<!--#region landingpage  -->
 			<section class="section hero" id="home" aria-label="home"
 					 style="background-image: url('./assets/images/slide2a.png')">
 				<div class="container">
-
 					<div class="hero-content">
-
-						<!--<p class="hero-subtitle">Custom-Archlord</p>-->
-
 						<h1 class="h1 hero-title">
 							<span class="span">Custom-</span>Archlord
 						</h1>
-
 						<p class="hero-text">
 							Archlord private server dedicated to provide you a classic Archlord feeling inspired by Episode 3.
 						</p>
-
-						<button class="btn skewBg"><a href="#latestnews">Read More</a> </button>
-
+						<button onclick="window.location='#latestnews';" class="btn skewBg"><a>Read More</a> </button>
 					</div>
-
-					<!--<figure class="hero-banner img-holder" style="--width: 700; --height: 700;">
-					  <img src="./assets/images/herobanner.png" width="700" height="700" alt="hero banner" class="w-100">
-					</figure>-->
-
 				</div>
 			</section>
+			<!--#endregion landingpage  -->
 
-
-
-
-
-			<!--
-			  - #BRAND
-			-->
-
-			<section class="section brand" aria-label="brand">
-				<div class="container">
-
-					<ul class="has-scrollbar">
-
-
-						<li class="brand-item" style="cursor:pointer;display:flex;" onclick="window.open('https://discord.gg/DdgjnESxHn', '_blank');">
-
-							<img src="./assets/images/disc.png" loading="lazy" alt="brand logo" width="35" height="35">
-						</li>
-
-
-
-						<li class="brand-item" style="cursor:pointer;display:flex;" onclick="window.open('https://drive.google.com/file/d/1JTQEX7ljlWCixCCGybNtNGapdrm5mXVl/view', '_blank');">
-							<img src="./assets/images/dl1.svg" loading="lazy" alt="brand logo" width="35" height="35">
-
-						</li>
-
-
-
-					</ul>
-
-				</div>
-			</section>
-
-
-
-
-
+			<!--#region latestnews_siege  -->
 			<div class="section-wrapper">
-
-				<!--
-				  - #LATEST GAME
-				-->
 
 				<section class="section latest-game" aria-label="latest game" id="latestnews">
 					<div class="container">
-
-						<!--<p class="section-subtitle">Latest Releases</p>-->
-
 						<h2 class="h2 section-title">
 							Latest <span class="span">News</span>
 						</h2>
-
 						<ul class="has-scrollbar">
 
 							<li class="scrollbar-item" onclick="window.location='./patchnotes';" style="cursor:pointer">
@@ -216,142 +98,86 @@
 										<img src="./assets/images/output-onlinepngtools (2).png" width="400" height="470" loading="lazy"
 											 alt="White Walker Daily" class="img-cover">
 									</figure>
-
 									<div class="card-content">
-
 										<a href="./patchnotes" class="card-badge skewBg">Patch Notes</a>
-
 										<h3 class="h3">
 											<a class="card-title">Patch <span class="span">24.2</span></a>
 										</h3>
-
 										<p class="card-price">
 											Added : <span class="span">Boss Spawn Notification</span>
-
 										</p>
 										<p class="card-price">
 											Adjusted : <span class="span">First Attacker status</span>
 										</p>
-
 									</div>
-
 								</div>
 							</li>
 
 							<li class="scrollbar-item">
 								<div class="latest-game-card">
-
 									<figure class="card-banner img-holder" style="--width: 400; --height: 470;">
 										<img src="./assets/images/events.png" width="400" height="470" loading="lazy"
 											 alt="Hunter Killer II" class="img-cover">
 									</figure>
-
 									<div class="card-content">
-
 										<a class="card-badge skewBg">Events</a>
-
 										<h3 class="h3">
 											<a class="card-title">Summer Event <span class="span"></span></a>
 										</h3>
-
 										<p class="card-price">
 											Start : <span class="span">01.06.2023</span>
-
 										</p>
-
 										<p class="card-price">
 											425% Exp within week <span class="span"> 450% Exp on weekend</span>
-
 										</p>
-
 									</div>
-
 								</div>
 							</li>
 
 							<li class="scrollbar-item">
 								<div class="latest-game-card">
-
 									<figure class="card-banner img-holder" style="--width: 400; --height: 470;">
 										<img src="./assets/images/arena.png" width="400" height="470" loading="lazy"
 											 alt="Cyberpunk Daily" class="img-cover">
 									</figure>
-
 									<div class="card-content">
-
 										<a class="card-badge skewBg">PVP</a>
-
 										<h3 class="h3">
 											<a class="card-title">Tournament <span class="span"></span></a>
 										</h3>
-
 										<p class="card-price">
 											Arena : <span class="span">Every day</span>
 										</p>
-
 										<p class="card-price">
 											Siege : <span class="span"> Every sunday 19:00 UTC</span>
 										</p>
-
 									</div>
-
 								</div>
 							</li>
-
 						</ul>
-
 					</div>
 				</section>
 
-
-
-
-				<!--#region LIVE MATCH  -->
-
-
 				<section class="section live-match" id="live" aria-label="live match">
 					<div class="container">
-
-						<!--<h2 class="h2 section-title" >
-							Inflame Castle holder: <span class="span">Merciless</span>
-						</h2>-->
-
-
-
 						<div class="live-match-player">
-
 							<figure class="player player-1 img-holder" style="--width: 406; --height: 277;">
 								<img src="./assets/images/gm_symbol01.png" width="406" height="277" loading="lazy"
 									 alt="tokyo eagle" class="w-100">
 							</figure>
-
 							<div class="live-match-detail">
-
 								<p class="live-match-subtitle">Upcoming Sunday</p>
-
 								<time class="live-match-time" datetime="08:30">19:00 UTC</time>
-
 							</div>
-
 							<figure class="player player-2 img-holder" style="--width: 400; --height: 305;">
 								<img src="./assets/images/gm_symbol02.png" width="400" height="305" loading="lazy"
 									 alt="new york hunter7" class="w-100">
 							</figure>
-
 						</div>
-
 					</div>
 				</section>
-				<!--#endregion LIVE MATCH  -->
 			</div>
-
-
-
-
-
-			<!--
-			  - #FEATURED GAME
-			-->
+			<!--#endregion latestnews_siege  -->
 
 			<section class="section featured-game" id="features" aria-label="featured game">
 				<div class="container">
@@ -550,9 +376,7 @@
 
 
 
-			<!--
-			  - #SHOP
-			-->
+		
 
 			<section class="section shop" id="shop" aria-label="shop"
 					 style="background-image: url('./assets/images/shop-bg.jpg')">
@@ -692,9 +516,7 @@
 
 
 
-			<!--
-			  - #BLOG
-			-->
+	
 
 			<section class="section blog" id="blog" aria-label="blog">
 				<div class="container">
@@ -797,9 +619,7 @@
 
 
 
-			<!--
-			  - #NEWSLETTER
-			-->
+		
 
 			<section class="newsletter" aria-label="newsletter">
 				<div class="container">
@@ -807,30 +627,22 @@
 					<div class="newsletter-card">
 
 						<h2 class="h2">
-							Download <span class="span">game</span>
+							Join us <span class="span">now!</span>
 						</h2>
 
 						<form action="" class="newsletter-form">
-							<button type="submit" class="btn newsletter-btn skewBg"  onclick="window.open('https://drive.google.com/file/d/1JTQEX7ljlWCixCCGybNtNGapdrm5mXVl/view', '_blank');">
-								<span class="span">Direct link</span>
+							<button type="submit" class="btn newsletter-btn skewBg" onclick="window.open('https://discord.gg/DdgjnESxHn', '_blank');">
+								<span class="span">Discord</span>
 
 								<ion-icon name="download" aria-hidden="true"></ion-icon>
 							</button>
-
-							<button type="submit" class="btn newsletter-btn skewBg"  onclick="window.open('https://drive.google.com/file/d/1Z2OMW8K0FkkOqP9G84A-AiFlO42C18VM/view', '_blank');">
-								<span class="span">Mirror 2</span>
-
-								<ion-icon name="download" aria-hidden="true"></ion-icon>
-							</button>
-
-							<button type="submit" class="btn newsletter-btn skewBg"  onclick="window.open('https://mega.nz/file/ONICDKDA#8ZUC_uYzHScE-UnsdBIt4UdUjVMtoebO_WxiFVq6O8o', '_blank');">
-								<span class="span">Mirror 3</span>
+							<br />
+							<button type="submit" class="btn newsletter-btn skewBg" onclick="window.open('./download', '_blank');">
+								<span class="span">Download</span>
 
 								<ion-icon name="download" aria-hidden="true"></ion-icon>
 							</button>
-
 						</form>
-
 					</div>
 
 				</div>
@@ -901,7 +713,7 @@
 						<a href="https://www.elitepvpers.com/forum/archlord" target="_blank" class="footer-link">Elitepvpers</a>
 					</li>
 
-					
+
 
 				</ul>
 
@@ -968,7 +780,7 @@
 
 
 
-	
+
 
 
 

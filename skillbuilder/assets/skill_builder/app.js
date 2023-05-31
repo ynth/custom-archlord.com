@@ -70,7 +70,7 @@ Object.keys(DETAIL['skills']).forEach(function (param, key) {
 
 			const skill_level = i + 1;
 			const original = item.levels[`Lv${skill_level}`];
-		
+			
 			const c = results.filter(r => r.skill_level == skill_level)[0];
 			
 
@@ -452,7 +452,7 @@ $('body').on('click', "#skill_info_button", function (a) {
 
 
 
-	$('#single_skill_description').html(detail.description);
+	//$('#single_skill_description').html(detail.description);//todo
 	$('#single_skill_image').attr('src', 'assets/skiller/' + detail.key + '.jpg');
 	$('#single_skill_name').html(detail.name);
 
