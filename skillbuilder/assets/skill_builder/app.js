@@ -56,7 +56,7 @@ for (var i = 0; i < SKILLCONST2.length; i++) {
 const removeFields = ["Skill_Success_Rate", "Stun_Rate", "Area_Length", "Area_Width",
 	"Range_Increase", "Special_Status_Success_Rate","Pet_Level_Increase"]
 
-console.clear();
+/*console.clear();*/
 
 Object.keys(DETAIL['skills']).forEach(function (param, key) {
 
@@ -80,8 +80,8 @@ Object.keys(DETAIL['skills']).forEach(function (param, key) {
 					if (c[x.cal]) {
 						if (original[x.org] != c[x.cal] && removeFields.indexOf(x.org) === -1)
 						{
-							console.warn(`Skillbuilder updated for ${item.name} ${original.Skill_Level}`)
-							console.log(`${x.org} = ${c[x.cal]}`)
+							//console.warn(`Skillbuilder updated for ${item.name} ${original.Skill_Level}`)
+							//console.log(`${x.org} = ${c[x.cal]}`)
 							/*console.log(``)*/
 						}				
 						original[x.org] = x.cal ? c[x.cal] : undefined;
