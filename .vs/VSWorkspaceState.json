@@ -1,13 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\css",
     "\\download",
     "\\patchnotes",
     "\\skillbuilder",
     "\\skillbuilder\\assets",
-    "\\skillbuilder\\assets\\js",
-    "\\skillbuilder\\assets\\skill_builder"
+    "\\skillbuilder\\assets\\css"
   ],
-  "SelectedNode": "\\patchnotes\\index.html",
   "PreviewInSolutionExplorer": false
 }
